@@ -1,10 +1,20 @@
 * {
     box-sizing: border-box;
 }
+.navbar {
+    padding: 20px;
+    background-color: #31f4311d;
+    display: ruby;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a, .navbar strong {
+    margin-right: 15px;
+}
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
 }
 
 p, a, li {
