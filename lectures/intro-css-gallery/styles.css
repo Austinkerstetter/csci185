@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Your code here */
+header {
+    background-color: goldenrod;
+    padding: 30px;
+}
+main > section {
+border:1px black solid;
+margin: 20px;
+display:inline-block;
+}
+main > section > p {
+    margin: 15px 10px 30px 10px;
+}
+main > section::selection {
+    color: red; 
+    background: yellow;
+  }
