@@ -14,7 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #333;
   background-color: snow;
-  margin: 0 auto;
+  display:flex;
   max-width: 1000px;
 }
 .container {
@@ -23,6 +23,7 @@ body {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  column-gap: 12px;
 }
 /* first child: span first 4 columns.
 second child: span nex 6 columns*/
