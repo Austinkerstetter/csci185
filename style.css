@@ -1,23 +1,143 @@
-* {
-    box-sizing: border-box;
-}
-.navbar {
-    padding: 20px;
-    background-color: #31f4311d;
-    display: ruby;
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+header {
+    padding: 25px 13vw;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+header > img {
+    width: 100px;
+}
+.navbar{
+    background-color: #0d082e;
+    color: white;
+    padding: 20px;
+    display: flex;
     justify-content: center;
 }
-.navbar a, .navbar strong {
-    margin-right: 15px;
+
+h1, h2, h3 {
+    font-family: 'Tilt Prism', cursive;
 }
 
 body {
-    margin: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 10px;
+    background-color: navajowhite;
+  
+}
+section {
+    border: #0d082e;
+    border-width: 1px;
+    border-style: solid;
+    width: 700px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
+}
+ #tutorials a { 
+    color: grey;
+    background-color: navy;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Arial;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+ }
+
+ #tutorials a:hover,
+#tutorials a:focus {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 20px;
+    transform: rotate(-5deg);
+    font-size: 1.1em;
+}
+#homework a {
+    color: grey;
+    background-color: navy;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Arial;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+}
+
+
+#homework a:hover,
+#homework a:focus {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 20px;
+    transform: rotate(-5deg);
+    font-size: 1.1em;
+}
+#Quizzes a {
+    color: grey;
+    background-color: navy;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Arial;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+}
+
+
+#Quizzes a:hover,
+#Quizzes a:focus {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 20px;
+    transform: rotate(-5deg);
+    font-size: 1.1em;
+}
+#inspiration a {
+    color: grey;
+    background-color: navy;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Arial;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+}
+
+
+#inspiration a:hover,
+#inspiration a:focus {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 20px;
+    transform: rotate(-5deg);
+    font-size: 1.1em;
+}
+#class-exercises a {
+    color: grey;
+    background-color: navy;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Arial;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+}
+
+
+#class-exercises a:hover,
+#class-exercises a:focus {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 20px;
+    transform: rotate(-5deg);
+    font-size: 1.1em;
+}
+@media screen and (max-width: 800px) {
+    section {
+        width: 90%;
+    }
 }
