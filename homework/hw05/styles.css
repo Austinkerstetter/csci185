@@ -11,3 +11,7 @@ body {
 }
 
 /* Your CSS Code Here! */
+nav{
+display: flex;
+
+}

@@ -1,0 +1,105 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Tilt+Prism&display=swap');
+
+
+
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+header  {
+    background-color: #013672;
+   
+    
+}
+
+header img, footer img {
+    width: 200px;
+}
+nav {
+    display:flex;
+    justify-content: flex-end;
+    
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+nav:visited {
+    color:white;
+}
+
+h1, h2, h3 {
+    font-family: 'Passion One', cursive;
+    
+}
+h1, h2 {
+    margin-top: 10px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+
+}
+
+ .card img {
+    width: 50%;
+    height: 50%
+  }
+    
+    .card {
+        border: solid 2px #000;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto 175px;
+    }
+    .card  {
+        transition: all 0.3s ease-out;
+    }
+    
+    
+.card:hover,
+.card:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 0, 145);
+    padding: 5px 20px;
+    font-size: 1.1em;
+}
+@media screen and (max-width: 800px) {
+.card {
+    grid-template-columns: auto;
+}
+.cards{
+    grid-template-columns: auto;
+}
+}
+
+
